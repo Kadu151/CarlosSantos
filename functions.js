@@ -16,10 +16,10 @@ function handleButtonClick(destino) {
       window.open('https://kadu151.github.io/20twenty/', '_blank');
       break;
     case 'jobs':
-      window.location.href = '/template/jobs.html';
+      window.location.href = 'jobs.html';
       break;
   case 'home':
-      window.location.href = '/template/index.html';
+      window.location.href = 'index.html';
       break;
   }
 }
@@ -43,4 +43,5 @@ function handleButtonClick(destino) {
       .catch(error => {
         alert('Erro ao enviar o formulário. Tente mais tarde.');
       });
+
   }
