@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carlos Santos - Perfil Profissional</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            azulMedio: '#7284AD',
+            branco: '#FFFFFF'
+          }
+        }
+      }
+    }
+    
+  </script>
+</head>
+<body class="bg-azulMedio text-branco min-h-screen">
+  <main class="flex-grow">
+
+    <!-- HERO / APRESENTAÇÃO -->
+    <section class="text-center max-w-4xl mx-auto px-8 pt-20 pb-10">
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-10">
+        <img src="/assets/icons/imgcorporative/fotoperfilkadu.jpg" alt="Carlos Santos"
+             class="w-52 h-52 sm:w-60 sm:h-60 rounded-full object-cover border-4 border-white shadow-lg" />
+        <div class="text-left sm:text-start">
+          <h1 class="text-5xl font-extrabold text-white mb-2">Carlos Santos</h1>
+          <p class="text-xl text-gray-300 mb-3">Profissional Administrativo e Desenvolvedor Web</p>
+          <p class="text-gray-300 mb-6 max-w-lg">
+            Profissional com formação em Administração e Gestão Empresarial, experiência sólida no setor administrativo e habilidades técnicas em desenvolvimento web e análise de dados. Aberto a oportunidades em empresas que valorizem inovação, organização e proatividade.
+          </p>
+          <div class="flex flex-wrap justify-center sm:justify-start gap-4 mt-0">
+            <button onclick="handleButtonClick('github')" class="border border-white text-white px-6 py-2 rounded-lg hover:bg-white hover:text-azulMedio transition">GitHub</button>
+            <button onclick="handleButtonClick('linkedin')" class="border border-white text-white px-6 py-2 rounded-lg hover:bg-white hover:text-azulMedio transition">LinkedIn</button>
+            <button onclick="handleButtonClick('whatsapp')" class="border border-white text-white px-6 py-2 rounded-lg hover:bg-white hover:text-azulMedio transition">Contato</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+  <section id="sobre" class="bg-white text-azulMedio py-16 px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">Perfil Profissional</h2>
+    <p class="text-lg leading-relaxed mb-6">
+      Sou formado em <strong>Gestão Empresarial</strong> e bacharel em <strong>Administração de Empresas</strong>. Possuo também formação técnica em Informática, o que me permite aliar conhecimento administrativo a soluções tecnológicas no ambiente corporativo.
+    </p>
+    <p class="text-lg leading-relaxed mb-6">
+      Atuo há 3 anos no setor administrativo, com domínio avançado do <strong>Pacote Office</strong>, habilidades intermediárias em <strong>Power BI</strong>, além de conhecimentos em <strong>HTML, CSS e JavaScript</strong>. Meu perfil é analítico, proativo e com foco em resultados.
+    </p>
+    <p class="text-lg leading-relaxed mb-8">
+      Busco oportunidades em empresas que valorizem eficiência, organização e pensamento estratégico. Tenho nível intermediário de inglês e estou sempre disposto a aprender e colaborar.
+    </p>
+</section>
+
+    <!-- HERO / APRESENTAÇÃO -->
+<section id="linha-do-tempo" class="bg-gray-100 py-16 px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center text-azulMedio mb-12">Linha do Tempo Administrativa</h2>
+
+    <div class="overflow-x-auto">
+      <div class="flex space-x-12 min-w-max px-4 relative">
+
+        <!-- Linha base -->
+        <div class="absolute top-1/2 left-0 w-full h-1 bg-azulClaro -z-10 transform -translate-y-1/2"></div>
+
+        <!-- Etapa 1 -->
+        <div class="flex flex-col items-center text-center">
+          <div class="w-6 h-6 bg-azulMedio rounded-full mb-4"></div>
+          <div class="bg-white p-4 rounded-xl shadow-md w-64">
+            <h3 class="text-xl font-semibold text-azulMedio">Jovem Aprendiz</h3>
+            <p class="text-gray-600 text-sm">08/09/2022 – 30/06/2023</p>
+            <p class="text-gray-700 text-sm mt-2">Unifisa Administradora Nacional de Consórcios LTDA</p>
+          </div>
+        </div>
+
+        <!-- Etapa 2 -->
+        <div class="flex flex-col items-center text-center">
+          <div class="w-6 h-6 bg-azulMedio rounded-full mb-4"></div>
+          <div class="bg-white p-4 rounded-xl shadow-md w-64">
+            <h3 class="text-xl font-semibold text-azulMedio">Assistente de Crédito Jr.</h3>
+            <p class="text-gray-600 text-sm">30/07/2023 – 02/01/2024</p>
+            <p class="text-gray-700 text-sm mt-2">Unifisa Administradora Nacional de Consórcios LTDA</p>
+          </div>
+        </div>
+
+        <!-- Etapa 3 -->
+        <div class="flex flex-col items-center text-center">
+          <div class="w-6 h-6 bg-azulMedio rounded-full mb-4"></div>
+          <div class="bg-white p-4 rounded-xl shadow-md w-64">
+            <h3 class="text-xl font-semibold text-azulMedio">Assistente de Crédito Sênior</h3>
+            <p class="text-gray-600 text-sm">02/01/2024 – 01/01/2025</p>
+            <p class="text-gray-700 text-sm mt-2">Unifisa Administradora Nacional de Consórcios LTDA</p>
+          </div>
+        </div>
+
+        <!-- Etapa 4 -->
+        <div class="flex flex-col items-center text-center">
+          <div class="w-6 h-6 bg-azulMedio rounded-full mb-4"></div>
+          <div class="bg-white p-4 rounded-xl shadow-md w-64">
+            <h3 class="text-xl font-semibold text-azulMedio">Analista de Crédito Jr.</h3>
+            <p class="text-gray-600 text-sm">01/01/2025 – 30/07/2025</p>
+            <p class="text-gray-700 text-sm mt-2">Unifisa Administradora Nacional de Consórcios LTDA</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- SERVIÇOS / HABILIDADES -->
+    <section id="servicos" class="bg-white text-azulMedio py-16 px-6">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-10">Minhas Competências</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+
+      <!-- Gestão Administrativa -->
+      <div class="bg-white border border-azulMedio p-6 rounded-2xl shadow-lg hover:bg-azulMedio hover:text-branco transition duration-300 transform hover:-translate-y-1">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 7h18M3 11h18M3 15h18M3 19h18" />
+        </svg>
+        <h3 class="text-xl font-bold mb-2">Gestão Administrativa</h3>
+        <p class="text-sm">Experiência em rotinas administrativas, organização de processos e controle de indicadores.</p>
+      </div>
+
+      <!-- Desenvolvimento Web -->
+      <div class="bg-white border border-azulMedio p-6 rounded-2xl shadow-lg hover:bg-azulMedio hover:text-branco transition duration-300 transform hover:-translate-y-1">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+        </svg>
+        <h3 class="text-xl font-bold mb-2">Desenvolvimento Web</h3>
+        <p class="text-sm">Criação de páginas web responsivas com HTML, CSS, Tailwind e JavaScript.</p>
+      </div>
+
+      <!-- Análise de Dados -->
+      <div class="bg-white border border-azulMedio p-6 rounded-2xl shadow-lg hover:bg-azulMedio hover:text-branco transition duration-300 transform hover:-translate-y-1">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 17v-6a2 2 0 00-2-2H5m14 8v-4a2 2 0 00-2-2h-2m-6 8V9a2 2 0 012-2h2a2 2 0 012 2v8" />
+        </svg>
+        <h3 class="text-xl font-bold mb-2">Análise de Dados</h3>
+        <p class="text-sm">Relatórios gerenciais e dashboards com Excel Avançado e Power BI.</p>
+      </div>
+
+      <!-- Comunicação -->
+      <div class="bg-white border border-azulMedio p-6 rounded-2xl shadow-lg hover:bg-azulMedio hover:text-branco transition duration-300 transform hover:-translate-y-1">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4-.8L3 21l1.8-4A9.863 9.863 0 015 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+        </svg>
+        <h3 class="text-xl font-bold mb-2">Comunicação</h3>
+        <p class="text-sm">Clareza na comunicação escrita e verbal. Trabalho bem em equipe e com prazos.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Portfólio -->
+<section id="portfolio" class="bg-azulMedio text-white py-16 px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-10">Projetos realizados</h2>
+
+    <div class="overflow-x-auto">
+      <div class="flex gap-6 w-max px-2 pb-4">
+
+        <!-- Projeto 1 -->
+        <div class="w-96 bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition flex-shrink-0 flex flex-col">
+          <video class="w-full h-64 object-cover" src="/assets/icons/videos/analisefinanceira.mp4" autoplay muted loop playsinline preload="metadata"></video>
+          <div class="p-6 text-azulMedio flex flex-col h-full items-center text-center">
+            <h3 class="text-xl font-semibold mb-2 max-w-xs">Analise de Balanço Patrimonial e DRE</h3>
+            <p class="text-sm mb-4 flex-grow max-w-xs">Ferramenta auxiliadora na análise de indicadores de Balanço Patrimonial e DRE de uma empresa.</p>
+            <button onclick="handleButtonClick('jobs')" class="inline-block px-4 py-2 border border-azulMedio rounded-lg hover:bg-azulMedio hover:text-white transition mt-auto">Saiba Mais</button>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="w-96 bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition flex-shrink-0 flex flex-col">
+          <video class="w-full h-64 object-cover" src="/assets/icons/videos/GERADORTEXTO.mp4" autoplay muted loop playsinline preload="metadata"></video>
+          <div class="p-6 text-azulMedio flex flex-col h-full items-center text-center">
+            <h3 class="text-xl font-semibold mb-2 max-w-xs">Gerador de Texto e Extrator de Texto</h3>
+            <p class="text-sm mb-4 flex-grow max-w-xs">Gerador de texto com base em preenchimento de formulário e leitor OCR de arquivos PDF.</p>
+            <button onclick="handleButtonClick('jobs')" class="inline-block px-4 py-2 border border-azulMedio rounded-lg hover:bg-azulMedio hover:text-white transition mt-auto">Saiba Mais</button>
+          </div>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="w-96 bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition flex-shrink-0 flex flex-col">
+          <video class="w-full h-64 object-cover" src="/assets/icons/videos/editorpdf.mp4" autoplay muted loop playsinline preload="metadata"></video>
+          <div class="p-6 text-azulMedio flex flex-col h-full items-center text-center">
+            <h3 class="text-xl font-semibold mb-2 max-w-xs">Manipulador de PDF Simples e Rápido</h3>
+            <p class="text-sm mb-4 flex-grow max-w-xs">Manipulador de PDF, sem risco de uso indevido de informações da empresa.</p>
+            <button onclick="handleButtonClick('jobs')" class="inline-block px-4 py-2 border border-azulMedio rounded-lg hover:bg-azulMedio hover:text-white transition mt-auto">Saiba Mais</button>
+          </div>
+        </div>
+
+        <!-- Projeto 4 -->
+        <div class="w-96 bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition flex-shrink-0 flex flex-col">
+          <video class="w-full h-64 object-cover" src="/assets/icons/videos/certidoes.mp4" autoplay muted loop playsinline preload="metadata"></video>
+          <div class="p-6 text-azulMedio flex flex-col h-full items-center text-center">
+            <h3 class="text-xl font-semibold mb-2 max-w-xs">Buscador de Emissão de Certidões</h3>
+            <p class="text-sm mb-4 flex-grow max-w-xs">Facilitador para emissão de certidões judiciais e federais em todo o território nacional.</p>
+            <button onclick="handleButtonClick('jobs')" class="inline-block px-4 py-2 border border-azulMedio rounded-lg hover:bg-azulMedio hover:text-white transition mt-auto">Saiba Mais</button>
+          </div>
+        </div>
+
+         <!-- Projeto 5 -->
+        <div class="w-96 bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition flex-shrink-0 flex flex-col">
+          <video class="w-full h-64 object-cover" src="/assets/icons/videos/landingpagebarbeirodelivery.mp4" autoplay muted loop playsinline preload="metadata"></video>
+          <div class="p-6 text-azulMedio flex flex-col h-full items-center text-center">
+            <h3 class="text-xl font-semibold mb-2 max-w-xs">Pagina para agendamento de Corte de Cabelo</h3>
+            <p class="text-sm mb-4 flex-grow max-w-xs">Site em desenvolvimento para agendamento de corte de cabelo a domicilio (projeto para Profissional autonomo).</p>
+            <button onclick="handleButtonClick('barber')" class="inline-block px-4 py-2 border border-azulMedio rounded-lg hover:bg-azulMedio hover:text-white transition mt-auto">Ver projeto em desenvolvimento</button>
+          </div>
+        </div>
+
+         <!-- Projeto 6 -->
+        <div class="w-96 bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition flex-shrink-0 flex flex-col">
+          <video class="w-full h-64 object-cover" src="/assets/icons/videos/20twenty.mp4" autoplay muted loop playsinline preload="metadata"></video>
+          <div class="p-6 text-azulMedio flex flex-col h-full items-center text-center">
+            <h3 class="text-xl font-semibold mb-2 max-w-xs">E-commerce para marca de roupas</h3>
+            <p class="text-sm mb-4 flex-grow max-w-xs">Site para marca de roupas streetwear (projeto pessoal em desenvolvimento).</p>
+            <button onclick="handleButtonClick('e-commerce')" class="inline-block px-4 py-2 border border-azulMedio rounded-lg hover:bg-azulMedio hover:text-white transition mt-auto">Ver projeto em desenvolvimento</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contato + Currículo -->
+    <section id="contato-cv" class="bg-gradient-to-r from-sky-50 via-white to-sky-100 py-16 px-6 text-azulMedio">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+
+   <!-- Card: Formulário de Contato -->
+<div class="backdrop-blur-lg bg-white/70 shadow-2xl rounded-2xl p-8 border border-white/40">
+  <h2 class="text-3xl font-bold mb-6">Fale comigo</h2>
+   <form
+        id="form-contato"
+        action="https://formsubmit.co/carlos.goncalves1513@gmail.com"
+        method="POST"
+        class="flex flex-col gap-4 relative"
+        onsubmit="mostrarMensagem(event)"
+      >
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="javascript:void(0)" />
+
+        <input
+          type="text"
+          name="name"
+          placeholder="Seu nome"
+          class="border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-azulMedio bg-white/90"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Seu email"
+          class="border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-azulMedio bg-white/90"
+          required
+        />
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Sua mensagem"
+          class="border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-azulMedio bg-white/90 resize-none"
+          required
+        ></textarea>
+
+        <button
+          type="submit"
+          class="bg-azulMedio text-white font-semibold rounded-xl py-3 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
+        >
+          ✉️ Enviar mensagem
+        </button>
+
+        <!-- Mensagem de confirmação -->
+        <p id="mensagem-enviada" class="text-green-600 font-semibold mt-4 hidden">
+          ✅ Sua mensagem foi enviada com sucesso!
+        </p>
+      </form>
+</div>
+
+
+    <!-- Card: Baixar Currículo -->
+    <div class="backdrop-blur-lg bg-white/70 shadow-2xl rounded-2xl p-8 border border-white/40 flex flex-col items-center justify-center text-center">
+      <h2 class="text-3xl font-bold mb-4">Baixe meu Currículo</h2>
+      <p class="text-gray-600 mb-6 max-w-md">
+        Empresas interessadas na minha contratação podem baixar meu currículo atualizado para análise.
+      </p>
+      <a
+        href="/assets/icons/pdf/curriculo.pdf"
+        download
+        class="inline-flex items-center gap-2 bg-azulMedio text-white font-semibold rounded-xl px-6 py-3 hover:scale-105 transition-all duration-300 shadow-lg"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+             viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
+        </svg>
+        Baixar Currículo (PDF)
+      </a>
+    </div>
+      </main>
+      
+<footer class="bg-azulMedio text-branco w-full py-8 mt-auto">
+  <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+    
+    <!-- Info do Autor -->
+    <div class="text-center md:text-left mb-4 md:mb-0">
+      <h2 class="text-lg font-bold">Carlos Santos</h2>
+      <p class="text-sm text-white/70">© 2025 Todos os direitos reservados.</p>
+    </div>
+
+    <!-- Redes Sociais -->
+    <div class="flex space-x-4">
+      <a href="https://github.com/Kadu151" target="_blank" aria-label="GitHub"
+         class="hover:text-white text-white/70 transition">
+        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+          <!-- GitHub SVG Path -->
+          <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.3 7.8 10.8.6.1.8-.3.8-.6v-2.1c-3.2.7-3.9-1.4-3.9-1.4-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.7-.7.7-.7-.7-.4-1.3-1.1-1.3-2.2 0-.5.2-1 .6-1.3 0-.2-.3-1.2.1-2.6 0 0 .9-.3 2.7 1 .9-.3 1.9-.5 2.9-.5s2 .2 2.9.5c1.8-1.3 2.7-1 2.7-1 .4 1.4.1 2.4.1 2.6.4.4.6.8.6 1.3 0 1.1-.6 1.8-1.3 2.2.3.3.8 1 .8 2.1v3.1c0 .3.2.7.8.6 4.5-1.5 7.8-5.7 7.8-10.8C23.5 5.7 18.3.5 12 .5z"/>
+        </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/carlos-santos-74baaa199/" target="_blank" aria-label="LinkedIn"
+         class="hover:text-white text-white/70 transition">
+        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+          <!-- LinkedIn SVG Path -->
+          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.4c-.966 0-1.5-.721-1.5-1.6s.546-1.6 1.53-1.6c.983 0 1.5.721 1.5 1.6s-.517 1.6-1.53 1.6zm13.5 11.4h-3v-5.6c0-1.4-.5-2.4-1.7-2.4-1 0-1.6.7-1.8 1.4-.1.3-.1.6-.1 1v5.6h-3s.04-9.1 0-10h3v1.4c.4-.7 1.2-1.7 3-1.7 2.2 0 3.8 1.4 3.8 4.3v6z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="/add/js/functions.js"></script>
+  <script src="/add/contact.ts" type="module"></script>
+</body>
+</html>

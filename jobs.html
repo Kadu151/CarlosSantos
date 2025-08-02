@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes dos Projetos | Carlos Santos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #0f172a;
+            /* Azul escuro */
+        }
+    </style>
+</head>
+
+<body class="text-white font-sans relative">
+
+    <!-- Botão voltar (topo) -->
+    <div class="absolute top-6 left-6">
+       <button onclick="handleButtonClick('home')"
+            class="inline-flex items-center px-4 py-2 bg-white text-gray-900 rounded-lg shadow hover:bg-gray-200 transition">Voltar</button>
+    </div>
+
+    <section class="max-w-6xl mx-auto px-6 py-24">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-center mb-20">Projetos Desenvolvidos</h1>
+
+        <!-- Projeto 1 -->
+        <article class="bg-gray-800 rounded-2xl p-8 mb-12 shadow-lg hover:shadow-2xl transition-all duration-300">
+            <h2 class="text-2xl font-semibold mb-4">Análise de Balanço Patrimonial e DRE</h2>
+            <p class="text-gray-300 mb-6">
+                Projeto desenvolvido em colaboração com a consultora de crédito (também contadora) e a gerente de
+                crédito. A proposta surgiu inicialmente em formato Excel, mas foi aprimorada e migrada para uma solução
+                em HTML e JavaScript por sugestão minha, visando maior usabilidade e automação.<br><br>
+                A ferramenta permite o preenchimento manual de informações estratégicas previamente selecionadas das
+                demonstrações financeiras (Balanço Patrimonial e DRE). A partir desses dados, são gerados
+                automaticamente <strong>15 indicadores financeiros</strong>, cada um com perguntas interpretativas
+                pré-definidas. Com base no resultado de cada índice, o sistema indica o nível de risco ou desempenho
+                (por exemplo: risco alto, bom ou excelente).<br><br>
+                Ao final, todas as informações e análises são exportadas em <strong>PDF</strong>, incluindo os
+                comentários técnicos personalizados com base nos resultados obtidos.
+            </p>
+            <video class="w-full rounded-lg shadow-md mb-6" src="/assets/icons/videos/analisefinanceira.mp4" controls
+                preload="metadata"></video>
+            <button onclick="handleButtonClick('github')"
+                class="inline-flex items-center px-4 py-2 bg-white text-gray-900 rounded-lg shadow hover:bg-gray-200 transition">Ver
+                no GitHub</button>
+
+        </article>
+
+
+        <!-- Projeto 2 -->
+        <article class="bg-gray-800 rounded-2xl p-8 mb-12 shadow-lg hover:shadow-2xl transition-all duration-300">
+            <h2 class="text-2xl font-semibold mb-4">Gerador de Texto e Extrator de Texto</h2>
+            <p class="text-gray-300 mb-6">
+                Projeto criado por iniciativa própria, com o objetivo de automatizar uma atividade repetitiva
+                relacionada à qualificação
+                de pessoas físicas, jurídicas, imóveis e certidões em documentos do Word (DOCX), que também continham
+                outras informações relevantes.
+
+                <br><br>
+                <strong>Problemas recorrentes:</strong> demora e erros no preenchimento manual dos dados.<br>
+                <strong>Causas:</strong> Qualificações extensas e múltiplas documentações exigindo digitação manual.
+
+                <br><br>
+                <strong>Solução proposta:</strong> Criação de duas ferramentas simples e práticas:
+                <br><br>
+                1. Uma ferramenta de geração automática de texto para qualificação de pessoas físicas, jurídicas e
+                certidões. O usuário preenche apenas os campos de um formulário simples com as variáveis necessárias, e
+                a aplicação gera automaticamente o texto completo da qualificação, reduzindo drasticamente o tempo de
+                digitação e os erros.
+                <br><br>
+                2. Um extrator de texto de matrículas imobiliárias, pensado especialmente para situações onde o
+                colaborador precisa redigitar manualmente as informações da matrícula de um imóvel. A ferramenta permite
+                que o usuário envie um print ou PDF com a matrícula e retorna o texto completo pronto para copiar e
+                colar. Isso elimina a necessidade de alternar entre janelas e reduz o risco de erros de digitação.
+
+                <br><br>
+                Ambas as ferramentas foram desenvolvidas em JavaScript com estilização em tailwind, com foco na
+                otimização de tempo e precisão em tarefas rotineiras.
+            </p>
+            <video class="w-full rounded-lg shadow-md mb-6" src="/assets/icons/videos/GERADORTEXTO.mp4" controls
+                preload="metadata"></video>
+            <button onclick="handleButtonClick('github')"
+                class="inline-flex items-center px-4 py-2 bg-white text-gray-900 rounded-lg shadow hover:bg-gray-200 transition">Ver
+                no GitHub</button>
+
+        </article>
+
+        <!-- Projeto 3 -->
+        <article class="bg-gray-800 rounded-2xl p-8 mb-12 shadow-lg hover:shadow-2xl transition-all duration-300">
+            <h2 class="text-2xl font-semibold mb-4">Manipulador de PDF simples</h2>
+            <p class="text-gray-300 mb-6">
+                No ambiente corporativo, especialmente no setor administrativo, é comum utilizar ferramentas online para
+                manipulação de arquivos PDF — como mesclar, rotacionar, converter ou compactar. No entanto, muitas
+                dessas soluções armazenam os arquivos em servidores externos, o que pode representar riscos à
+                confidencialidade das informações.<br><br>
+
+                Com foco em segurança e praticidade, desenvolvi uma aplicação web utilizando JavaScript puro, que
+                executa todas as operações de forma local, diretamente no navegador do usuário. A ferramenta não utiliza
+                banco de dados nem realiza qualquer tipo de retenção de dados, garantindo que os arquivos não saiam do
+                ambiente do cliente.<br><br>
+
+                Essa solução foi pensada para profissionais que buscam agilidade no dia a dia, sem abrir mão da
+                segurança da informação.
+            </p>
+            <video class="w-full rounded-lg shadow-md mb-6" src="/assets/icons/videos/editorpdf.mp4" controls
+                preload="metadata"></video>
+            <button onclick="handleButtonClick('github')"
+                class="inline-flex items-center px-4 py-2 bg-white text-gray-900 rounded-lg shadow hover:bg-gray-200 transition">Ver
+                no GitHub</button>
+
+        </article>
+
+        <!-- Projeto 4 -->
+        <article class="bg-gray-800 rounded-2xl p-8 mb-12 shadow-lg hover:shadow-2xl transition-all duration-300">
+            <h2 class="text-2xl font-semibold mb-4">Buscador de Emissão de Certidões</h2>
+            <p class="text-gray-300 mb-6">
+                Durante o processo de análise para liberação de crédito, é essencial emitir diversas certidões que
+                ajudam a avaliar a viabilidade jurídica e o risco da operação. No entanto, esse procedimento, quando
+                feito manualmente via navegador, pode ser demorado e repetitivo.<br><br>
+
+                Pensando em otimizar esse processo, desenvolvi uma página que reúne os principais links de certidões
+                Federais e Judiciárias em todo o território nacional, facilitando a consulta e economizando tempo dos
+                colaboradores envolvidos na análise.
+            </p>
+            <video class="w-full rounded-lg shadow-md mb-6" src="/assets/icons/videos/certidoes.mp4" controls
+                preload="metadata"></video>
+            <button onclick="handleButtonClick('github')"
+                class="inline-flex items-center px-4 py-2 bg-white text-gray-900 rounded-lg shadow hover:bg-gray-200 transition">Ver
+                no GitHub</button>
+
+        </article>
+
+    </section>
+    <script src="/add/js/functions.js"></script>
+</body>
+
+</html>
